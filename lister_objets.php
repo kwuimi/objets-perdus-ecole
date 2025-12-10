@@ -31,7 +31,7 @@ $results = mysqli_query($conn, "SELECT * FROM objets ORDER BY date_trouve DESC")
             <td><?= $row['id'] ?></td>
             <td><?= $row['nom'] ?></td>
             <td><?= $row['description'] ?></td>
-            <td><?= $row['lieu_trouve'] ?></td>
+            <td><?= $row['leu_trouve'] ?></td>
             <td><?= $row['date_trouve'] ?></td>
             <td><?= $row['status'] ?></td>
             <td>
