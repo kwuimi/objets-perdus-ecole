@@ -48,7 +48,7 @@ if (isset($_POST['nom'])) {
     <input type="text" name="nom" value="<?= $obj['nom'] ?>" required><br><br>
 
     Description :<br>
-    <textarea name="description"><?= $obj['description'] ?></textarea><br><br>
+    <textarea name="desription"><?= $obj['description'] ?></textarea><br><br>
 
     Lieu trouvé :<br>
     <input type="text" name="lieu" value="<?= $obj['lieu_trouve'] ?>" required><br><br>

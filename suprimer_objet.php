@@ -9,3 +9,4 @@ mysqli_query($conn, "DELETE FROM objets WHERE id=$id");
 header("Location: lister_objets.php");
 exit;
 ?>
+nm
