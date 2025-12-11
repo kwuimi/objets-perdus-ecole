@@ -10,7 +10,7 @@ if (!isset($_SESSION['user_id'])) {
     // Redirige l'utilisateur vers la page de connexion
 
     exit;  
-    // Arrête l'exécution du script après la redirection
+   
 }
 ?>
 
