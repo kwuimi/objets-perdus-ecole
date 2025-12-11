@@ -6,8 +6,7 @@ require 'config.php';
 if (isset($_POST['username']) && isset($_POST['password'])) {
 
     $username = mysqli_real_escape_string($conn, $_POST['username']);
-    $password = md5($_POST['password']); // Le même hash que dans la BD
-
+    $password = md5($_POST['password']);
     // Vérifier si l'utilisateur existe
     $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
     $result = mysqli_query($conn, $query);
