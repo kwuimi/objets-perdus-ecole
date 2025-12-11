@@ -6,8 +6,7 @@ require 'config.php';
 if (isset($_POST['username']) && isset($_POST['password'])) {
 
     $username = mysqli_real_escape_string($conn, $_POST['username']);
-    $password = md5($_POST['password']); // Le même hash que dans la BD
-
+    $password = md5($_POST['password']);
     // Vérifier si l'utilisateur existe
     $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
     $result = mysqli_query($conn, $query);
@@ -24,7 +23,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         header("Location: dashboard.php");
         exit;
     } else {
-        $error = "Nom d'utilisateur ou mot de passe incorrect.";
+        $error = "Nom d'utilisateur ou  mot de passe incorrect.";
     }
 }
 ?>
@@ -47,7 +46,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         <label>Mot de passe :</label><br>
         <input type="password" name="password" required><br><br>
 
-        <button type="submit">Se connecter</button>
+        <button type="submit"><font></font color="green">Se connecter</button>font></button>
     </form>
 
 </body>
