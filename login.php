@@ -47,7 +47,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         <label>Mot de passe :</label><br>
         <input type="password" name="password" required><br><br>
 
-        <button type="submit">Se connecter</button>
+        <button type="submit"><font></font color="green">Se connecter</button>font></button>
     </form>
 
 </body>
