@@ -15,3 +15,4 @@ header("Location: lister_objets.php");
 // Arrêt de l'exécution du script pour s'assurer que la redirection fonctionne
 exit;
 ?>
+nm

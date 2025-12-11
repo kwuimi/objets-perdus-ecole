@@ -62,6 +62,7 @@ if (isset($_POST['nom'])) {
     Description :<br>
     <!-- Zone de texte pré-remplie avec la description actuelle -->
     <textarea name="description"><?= htmlspecialchars($obj['description']) ?></textarea><br><br>
+    <textarea name="desription"><?= $obj['description'] ?></textarea><br><br>
 
     Lieu trouvé :<br>
     <input type="text" name="lieu" value="<?= htmlspecialchars($obj['lieu_trouve']) ?>" required><br><br>

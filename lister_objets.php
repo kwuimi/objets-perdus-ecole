@@ -38,6 +38,9 @@ $results = mysqli_query($conn, "SELECT * FROM objets ORDER BY date_trouve DESC")
             <td><?= htmlspecialchars($row['nom']) ?></td>
             <td><?= htmlspecialchars($row['description']) ?></td>
             <td><?= htmlspecialchars($row['lieu_trouve']) ?></td>
+            <td><?= $row['nom'] ?></td>
+            <td><?= $row['description'] ?></td>
+            <td><?= $row['leu_trouve'] ?></td>
             <td><?= $row['date_trouve'] ?></td>
             <td><?= htmlspecialchars($row['status']) ?></td>
             <td>

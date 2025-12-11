@@ -55,7 +55,7 @@ if (isset($_POST['nom'])) {
     Date trouvée :<br>
     <input type="date" name="date" required><br><br>
 
-    <button type="submit">Ajouter</button>
+    <button type="subit">Ajouter</button>
 </form>
 
 <br>
